@@ -1,0 +1,18 @@
+# Core
+Django==5.0.6
+djangorestframework==3.15.2
+djangorestframework-simplejwt==5.3.1
+drf-spectacular==0.27.2
+django-cors-headers==4.3.1
+
+# DB
+psycopg[binary]==3.2.10
+
+# Utilidades
+python-dotenv==1.0.1
+bcrypt==4.2.0
+
+# (Opcional / Prod)
+gunicorn==21.2.0
+whitenoise==6.6.0
+requests>=2.31.0
